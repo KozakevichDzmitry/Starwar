@@ -1,0 +1,18 @@
+.error__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0;
+}
+.error__img{
+  max-width: 4em;
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+}
+.error__text{
+ text-align: center;
+  color: rgb(181 109 115);
+}

@@ -1,0 +1,26 @@
+$theme-colors: (
+        "nav": #227362,
+);
+$body-bg: #1f1f1e;
+$body-color: #fff;
+
+$nav-link-font-size: 1.2em;
+$nav-link-font-weight: 700;
+$nav-link-color: #227362;
+$nav-link-hover-color: #1E6455FF;
+
+$navbar-light-color: #227362;
+$navbar-light-hover-color: #1E6455FF;
+$navbar-light-active-color: #1aa782;
+$navbar-light-disabled-color: #515656;
+
+$card-bg: rgb(41, 41, 40);
+$card-title-spacer-y: 0.8em;
+
+$list-group-bg: transparent;
+$list-group-color: $body-color;
+$list-group-border-color: rgb(81, 86, 86);
+$list-group-item-padding-y:  0.3em;
+$list-group-item-padding-x: 0;
+$list-group-item-padding-x: 0;
+@import "bootstrap";

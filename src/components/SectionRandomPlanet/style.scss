@@ -1,0 +1,33 @@
+.random-planet{
+  margin-bottom: 3em;
+  .card__list.list-group{
+    margin-left: 1em;
+   border: none;
+    .list-group-item{
+      padding: .4em 0;
+      border-radius: 0;
+      border-top-width: 1px;
+      border-left-width: 0;
+      border-right-width: 0;
+      border-bottom-width: 0;
+    }
+  }
+  .card__img-wrapper{
+    overflow: hidden;
+    img{
+      display: block;
+      margin: 0 auto;
+      width: 250px;
+      height: 250px;
+      border-radius: 1em;
+      object-fit: cover;
+    }
+  }
+}
+.card__random-planet{
+  padding: 1em;
+}
+
+.card_description{
+  max-width: 350px;
+}

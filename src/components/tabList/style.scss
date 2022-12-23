@@ -1,0 +1,50 @@
+.tabs.list-group {
+
+  .list-group-item {
+    padding: .5em 1em;
+    border: 1px solid rgb(81, 86, 86);
+    background: rgb(41, 41, 40);
+    cursor: pointer;
+    transition: color .3ms linear;
+
+    &:hover, &.active {
+      color: #1aa782;
+    }
+  }
+}
+
+.tabs__pagination {
+  padding: 1em;
+  text-align: center;
+
+  span {
+    margin-left: 1em;
+    padding: .3em .5em;
+    border-radius: .2em;
+    border: 1px solid #333333;
+    cursor: pointer;
+    transition: all .3s linear;
+
+    &:first-child {
+      margin-left: 0;
+      &:before{
+        content: '< ';
+      }
+    }
+    &:last-child {
+      &:after{
+        content: ' >';
+      }
+    }
+
+    &:hover{
+      color: #1aa782;
+      border-color: #1aa782;
+    }
+  }
+  span.disable{
+    opacity: 0.7;
+    cursor: none;
+    pointer-events: none;
+  }
+}

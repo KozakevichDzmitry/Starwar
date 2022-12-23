@@ -1,0 +1,33 @@
+main{
+  margin-bottom: 3em;
+  .row{
+    margin-top: -1em;
+    >*{
+      margin-top: 1em;
+    }
+  }
+}
+.block-info{
+  min-width: 550px;
+}
+
+.card__details{
+  padding: 1em;
+  .card__img-wrapper{
+    img{
+      border-radius: var(--bs-border-radius);
+    }
+  }
+  .card__list.list-group{
+    margin-left: 1em;
+    border: none;
+    border-radius: 0;
+
+    .list-group-item{
+      border-top-width: 1px;
+      border-left: none;
+      border-right: none;
+      border-bottom: none;
+    }
+  }
+}
