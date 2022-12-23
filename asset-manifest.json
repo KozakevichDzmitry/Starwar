@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2a4bd36f.css",
+    "main.js": "/static/js/main.11146959.js",
+    "static/media/loading.gif": "/static/media/loading.f33219ef5d3a216a84fa.gif",
+    "static/media/death-star.png": "/static/media/death-star.4120fff250406fbeef2f.png",
+    "static/media/logo.png": "/static/media/logo.fa40914ce9d8b8ad7727.png",
+    "index.html": "/index.html",
+    "main.2a4bd36f.css.map": "/static/css/main.2a4bd36f.css.map",
+    "main.11146959.js.map": "/static/js/main.11146959.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a4bd36f.css",
+    "static/js/main.11146959.js"
+  ]
+}
